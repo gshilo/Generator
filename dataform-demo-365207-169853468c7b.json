@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dataform-demo-365207",
+  "private_key_id": "169853468c7bf100782451c6ddd02096dcc498f4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8C+iWpeX6WDQl\naijCZWMAj1+YWAiJhgOpRiDDnFZ22KkrLJJKl1s/xlv5iUgcdMygLNeZEwlnq+p9\ni9CWUOyCuIVoT0FTEV4BpYXmfXJVH9z0tEHYKfnn5dCB9+6PsnE9Q6yz0AA9th67\n5i39rgV8TdwPeDgw6y0WyBkGdrh4y+D/gSL5R1wH3l6FczmlkU1gEvumoOlx8/iI\nEjexdnCYLXA7iXTGOvgNlQpbc1rgC53l92+Srv9nhZkZwsgPWxyCdHnRI922vp4c\nRFYiqGUIqhKEJGHaraqoiJfR+cjbYqrdjlC+AFxq+6Moz+eKwTFMuOYkfeTAQokQ\nyMUYTts5AgMBAAECggEABb7V5otvU0awYi/ECst6+sSGqtKOwTfsYvbC78MWM7ej\nNI/eMOP+vFw4yW8nukHZ0i+Ij1Ng809SAO+9iegzT7uoTNN2Fx4F2aZHaO9Oh9oL\nP9lFlT+UFIElraDoA7Ezq0fm7hAF/9yxg/NwloqDfaSp23mket8mn6ZxuEw2ju87\nTFT/GWEn+CKmyspLQGDzO/DaCZlCXsXitNwE3NrMgCOzqJwOY28wBQlTotYa7FUe\nQ4cZ7zdf0Umlkk5o60CnOpsURE/E4IaD+hzscRmdkwNESgwb8dZB0U/cQQf26SKD\n+ZNUBs0KMaWOEEmJ44nYuSCzkcIh9jCRh3yyRtBDAQKBgQDwPFmy6q3aP4AX9mQj\nQ/pCyavsH8IPPvvGWc9E1zOdNGc+x5yaeqkxsiUZy3Wcxk+ewF26OF41VdA1AfLl\ndNSqjnPx8ocCo3M46o0ra3GXq/LhO+FX+7taTVoyeKurRXnd1vCFVNlxPq1FTA36\nOACJEWEYr86FZmaAjx9fqU8nAQKBgQDIYtjBhzUuc8wXKqOgLfIOCZEcB8R4viGr\nXY1wk1ENJy4kwYyt3oFWE+0EX8L2kcdMhjkTdNYpoYa+kU1a98f8VOdQIDG6EaFX\nRjdDg+RFF3E0eGTKn/iz2F6qh1GK/rTVIe/ocp7K/tMDoz6nA0v6bOz9/syW8JKa\nucpIjfssOQKBgQDJAnY7Ukmtd7yCUFNxfouEHqKPq/MANr8MNFFNVJOHUjWhPfw2\n9bNkNZ79elQqnXQ5bNP/4PJSxj60W7EVdTAMla1GIJv/BSx/zyHX1srxEZrkAuqG\nZ8dXw6lY2ccqQ7O4fwQ5S8m1C7CHbx+y4fDwv23y7gdrb0cNArRJoqzsAQJ/djHX\nqE8YD04+E2wTF2gCXkVGUkJCoPWE5o9H3h8Gr7tsfEGtuOCFaUBXjTzuwoE6DOke\nwVso92VPFRifiAie7TcnORvEOPwtLk08S5aADkDFhS1+RgYVq/7z16H5dwLFpvFd\nkL4K67FixcKEMf6/0fZt02N3SZCc6Katqh4VCQKBgQCZH1KjIk2Y+TeN6pDUAXSR\nggJkw2MkPD/ySAUExirFpxOFB740qlsVJflpJWNHP4/DZ1vPF2odNWJAkPqXT1cJ\nc05k3nQ+Q0lANwbyTUOxfl4nbYi053e9egH+BMUYdlOf/SlqX21+NUKA8nC8LXYu\nQ60rOsGXd9LqvQZsriogSg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "python-client-pubsub@dataform-demo-365207.iam.gserviceaccount.com",
+  "client_id": "104603957108747823169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-client-pubsub%40dataform-demo-365207.iam.gserviceaccount.com"
+}
