@@ -19,11 +19,17 @@ class generator:
 		record = {}
 		while True:
 			change_percent = random.randint(-15, 15)
+			# every once in a while, we deliberately insert erronous record with price=0
+			error = random.randint(0,100)
 			last_price = round(last_price / 100 * (100 + change_percent))
 
 			record["timestamp"] = datetime.now().strftime("%m-%d-%Y, %H:%M:%S")
 			record["symbol"] = self.symbol
-			record["price"] = last_price
+			# every once in a while, we deliberately insert erronous record with price=0
+			if error > 90:
+				record["price"] = last_price
+			else:
+				record["price"] = 0
 			json_record = json.dumps(record, indent=4)
 			print (json_record)
 			#print("Pushing a record into pub/sub")
