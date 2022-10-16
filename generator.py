@@ -31,7 +31,7 @@ class generator:
 			else:
 				record["price"] = 0
 			json_record = json.dumps(record, indent=4)
-			#print (json_record)			
+			print (json_record)			
 			future = publisher.publish(topic_path, json_record.encode("utf-8"))
 			id = future.result(None)
 			print(str(id))
