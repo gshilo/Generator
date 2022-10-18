@@ -1,5 +1,6 @@
 from python:latest
 
+run pip install --upgrade pip
 run pip install --upgrade google-cloud-pubsub
 run git clone https://github.com/gshilo/dataform.git
 run chmod +x ./dataform/generator.py
