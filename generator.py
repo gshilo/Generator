@@ -18,18 +18,19 @@ class generator:
 		last_price = self.last_price
 		record = {}
 		while True:
-			change_percent = random.randint(-15, 15)
+			change_percent = random.randint(-4, 4)
 			# every once in a while, we deliberately insert erronous record with price=0
 			error = random.randint(0, 100)
 			last_price = round(last_price / 100 * (100 + change_percent))
 
 			record["timestamp"] = datetime.now().strftime("%m-%d-%Y, %H:%M:%S")
 			record["symbol"] = self.symbol
+			record["price"] = last_price
 			# every once in a while, we deliberately insert erronous record with price=0
-			if error < 100:
-				record["price"] = last_price
-			else:
-				record["price"] = 0
+			#if error < 95:
+			#	record["price"] = last_price
+			#else:
+			#	record["price"] = 0
 			json_record = json.dumps(record, indent=4)
 			print (json_record)			
 			future = publisher.publish(topic_path, json_record.encode("utf-8"))
