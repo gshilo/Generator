@@ -26,7 +26,7 @@ class generator:
 			record["timestamp"] = datetime.now().strftime("%m-%d-%Y, %H:%M:%S")
 			record["symbol"] = self.symbol
 			# every once in a while, we deliberately insert erronous record with price=0
-			if error < 95:
+			if error < 100:
 				record["price"] = last_price
 			else:
 				record["price"] = 0
