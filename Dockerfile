@@ -7,4 +7,4 @@ run chmod +x ./Generator/generator.py
 run cp ./Generator/dataform-demo-365207-169853468c7b.json /tmp/dataform-demo-365207-169853468c7b.json
 ENV GOOGLE_APPLICATION_CREDENTIALS=/tmp/dataform-demo-365207-169853468c7b.json
 
-CMD python ./Generator/generator.py CTMX 1
+CMD python ./Generator/generator.py CTMX 2
