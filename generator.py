@@ -18,9 +18,9 @@ class generator:
 		last_price = self.last_price
 		record = {}
 		while True:
-			change_percent = random.randint(-4, 4)
+			change_percent = random.randint(-15, 15)
 			# every once in a while, we deliberately insert erronous record with price=0
-			error = random.randint(0, 100)
+			#error = random.randint(0, 100)
 			last_price = round(last_price / 100 * (100 + change_percent))
 
 			record["timestamp"] = datetime.now().strftime("%m-%d-%Y, %H:%M:%S")
